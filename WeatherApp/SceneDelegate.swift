@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
-        let viewController = ViewController()
+        let viewController = WeatherViewController()
         navigationController.pushViewController(viewController, animated: false)
     }
 }
